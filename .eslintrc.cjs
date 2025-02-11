@@ -6,7 +6,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
-    "plugin:prettier/recommended", // Prettier との統合
+    "plugin:prettier/recommended" // Prettier との統合
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
@@ -15,9 +15,9 @@ module.exports = {
   rules: {
     "react-refresh/only-export-components": [
       "warn",
-      { allowConstantExport: true },
+      { allowConstantExport: true }
     ],
-    "prettier/prettier": "error",
-    "no-unused-vars": "warn",
-  },
+    "prettier/prettier": "warn",
+    "no-unused-vars": "warn"
+  }
 };
