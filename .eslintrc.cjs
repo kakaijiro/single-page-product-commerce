@@ -18,6 +18,7 @@ module.exports = {
       { allowConstantExport: true }
     ],
     "prettier/prettier": "warn",
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "react/prop-types": "off" // tempolary disable type checking
   }
 };
